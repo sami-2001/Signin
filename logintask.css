@@ -1,0 +1,87 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: salmon;
+
+}
+
+.pinky,a{
+    display: block;
+}
+
+.pinkyy{
+    display: block;
+    display: flex;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+}
+
+form h4{
+    text-align: center;
+    color: maroon;
+}
+
+form h3, h6{
+    text-align: center;
+}
+
+form label{
+    color: black;
+    font-size: 14px;
+    display: block;
+}
+
+form .paisa{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+   
+}
+
+form #btn{
+    display: flex;
+    justify-content:center;
+    
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background-color: yellow;
+    color: black;
+}
+
+form a{
+    text-decoration: none;
+    color: blue;
+
+}
+
+.fa-envelope{
+    position: absolute;
+}
+
+div #check{
+    display: flex;
+    justify-content: space-between;
+}
+
+div #sign{
+    display: flex;
+    justify-content: space-evenly;
+}
